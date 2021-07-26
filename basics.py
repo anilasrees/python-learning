@@ -20,9 +20,10 @@ elif i <=-1:
 
 #palindrome 
 
-string = input("enter a word : ")
+number = input("enter a number : ")
+string = str(number)
 rev_string = string [::-1]
 if string == rev_string :
-    print("this word is a palindrome.")
+    print("this number is  palindrome.")
 else:
-    print("this is not a palindrome.")
+    print("this number is not palindrome.")
