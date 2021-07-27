@@ -33,11 +33,14 @@ else:
 count = int(input("how many numbers you want in fibonacci series ? please enter the number : "))
 n1,n2 = 0,1
 sum = 0
-for i in range(count):
-    print(sum)
-    n1 = n2
-    n2 = sum
-    sum =n1+n2
+if count <=0:
+    print("please enter a number grater than zero!!")
+else:
+    for i in range(count):
+        print(sum)
+        n1 = n2
+        n2 = sum
+        sum =n1+n2
 
     
 
