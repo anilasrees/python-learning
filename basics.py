@@ -16,7 +16,7 @@ elif i >=1:
     print("it is a positive number")
 elif i <=-1:
     print("it is a negative number")
-    """
+    
 
 #palindrome 
 
@@ -27,3 +27,17 @@ if string == rev_string :
     print("this number is  palindrome.")
 else:
     print("this number is not palindrome.")
+    """
+# fibonacci series
+
+count = int(input("how many numbers you want in fibonacci series ? please enter the number : "))
+n1,n2 = 0,1
+sum = 0
+for i in range(count):
+    print(sum)
+    n1 = n2
+    n2 = sum
+    sum =n1+n2
+
+    
+
