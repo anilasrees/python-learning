@@ -1,13 +1,23 @@
-from types import AsyncGeneratorType
-from typing import AsyncIterable
+#print hello world
 
+(print)("hello world")
+print('hello world')
 
-(print)('hellow world')
-print('my codes')
-a=10
-b=20
-c=a+b
+# find sum of string 
+
+a = "hello"
+b = "world"
+c = a+b
 print(c)
+
+#find sum of integers
+
+num1,num2 = 4,5
+sum = num1+num2 
+print(sum)
+
+
+"""
 print (10+10)
 name = "anilasrees" 
 print(name)
@@ -16,9 +26,7 @@ print(num)
 print(type(num))
 python = 'true'
 print(type(python))
-para = """my house is thannermukkom
-and india is my country"""#paragraph
-print(para)
+
 text = '   learn python'
 print(text[1:4])
 print(len(text))
@@ -32,3 +40,4 @@ print(text.format(name,age))
 # list
 list1 = ["onion","tomato","carrot"]
 print(list1[0])
+"""
