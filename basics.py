@@ -27,7 +27,7 @@ if string == rev_string :
     print("this number is  palindrome.")
 else:
     print("this number is not palindrome.")
-    """
+
 # fibonacci series
 
 count = int(input("how many numbers you want in fibonacci series ? please enter the number : "))
@@ -42,5 +42,15 @@ else:
         n2 = sum
         sum =n1+n2
 
+    """
+def fabonacci(num):
+    sum= n1+n2
     
+
+num = int(input("enter number"))
+n1 = 0
+n2 = 1
+sum = 0
+fabonacci(num)
+print(sum)
 
