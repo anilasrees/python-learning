@@ -8,7 +8,11 @@ sum = valu1 + valu2
 print("you sum is : " + str(sum))
 """
 #average
-number1 = int(input("enter three numbers -"))
+n = int(input("enter the number of values"))
+print("enter" +str(n) + "numbers -")
+for i in range(n)
+
+number1 = int(input()
 number2 = int(input())
 number3 = int(input())
 average = (number1+number2+number3)/3
