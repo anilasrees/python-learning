@@ -28,6 +28,7 @@ print(type(num))
 python = 'true'
 print(type(python))
 
+#string reverse
 
 text = '   learn python'
 rev_text = text[::-1]
