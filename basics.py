@@ -81,4 +81,4 @@ elif(taxable_income>min2 and taxable_income<max2):
     tax = (taxable_income - min2) * rate2
 else:
     tax = (taxable_income-min3) *rate3
-print("TAX = ",str(tax))    
+print("TAX = ",str(round(tax,3)))    
