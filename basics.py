@@ -66,12 +66,12 @@ min1 = 150001
 max1 = 300000
 rate1 = 0.10
 min2 = 300001
-max2 = 500001
+max2 = 500000
 rate2 = 0.20
 min3 = 500001
 rate3 = 0.30
 
-income = int("enter the income : "))
+income = int(input("enter the income : "))
 taxable_income =income -150000
 if (taxable_income <=0):
     print("no tax")
@@ -81,4 +81,4 @@ elif(taxable_income>min2 and taxable_income<max2):
     tax = (taxable_income - min2) * rate2
 else:
     tax = (taxable_income-min3) *rate3
-print("TAX = ",tax)    
+print("TAX = ",str(tax))    
