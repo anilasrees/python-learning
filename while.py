@@ -1,4 +1,5 @@
-i = 2
-while(i<=50):
-    print(i,end= '\t')
-    i+=4
+#print 20 asterisks
+i = 1
+while(i<21):
+    print("*",end= '\t')
+    i+=1
