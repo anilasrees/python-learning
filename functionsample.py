@@ -1,10 +1,11 @@
 from typing import AsyncIterable
 
 
-length= int(input("enter the length"))
-breadth = int (input("enter the breadth "))
+side1 = int(input("enter one side "))
+side2 = int(input("enter the second side"))
 
-def fun():#no arguments 
-    print( length *breadth)
+def function(side1,side2):#has both arguments as well as return values
+    print(side1*side2)
+function(side1,side2)
+    
 
-fun()
