@@ -1,4 +1,6 @@
+
 import math
+
 print("\t  CALCULATOR   ")
 def sum(a,b):
     a+=b
@@ -41,7 +43,8 @@ while(True):
     print("\t4.DIVISION")
     print("\t5.SQUARE ROOT")
     print("\t6.SQUARE")
-    print("\t7.EXIT")
+    print("\t7.area of a circle")
+    print("\t8.EXIT")
     
     choice = int(input('>'))
     
@@ -73,6 +76,10 @@ while(True):
     elif choice==6:
         num1=int(input("Enter the value : "))
         sqr(num1)
+    elif choice==7:
+        import area
+    
+        
     else:
         print("you choose to exit...thank you...")
         break
