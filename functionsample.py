@@ -1,7 +1,7 @@
 from typing import AsyncIterable
 
 
-side1 = int(input("enter one side "))
+side1 = int(input("enter the first side "))
 side2 = int(input("enter the second side"))
 
 def function(side1,side2):#has arguments 
